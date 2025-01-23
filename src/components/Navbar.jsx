@@ -73,7 +73,7 @@ const Navbar = () => {
   <div className="navbar-end space-x-4">
   {
                     user ? (<><Link to="/dashboard" className="btn btn-outline btn-primary px-8 hidden sm:flex">Dashboard</Link>
-                        <button onClick={handleLogOut}  className="btn  btn-primary bg-primary text-white">Logout</button></>) : (<><Link to="/login" className="btn btn-outline btn-primary px-8 hidden sm:flex">Log In</Link>
+                        <button onClick={handleLogOut}  className="btn  btn-primary bg-primary text-white">Logout</button></>) : (<><Link to="/login" className="btn btn-outline btn-primary px-8  sm:flex">Log In</Link>
                             <Link to="/price" className="btn  btn-primary bg-primary text-white">Start Free Trial</Link></>)
                 }
 
